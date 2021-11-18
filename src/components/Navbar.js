@@ -1,5 +1,6 @@
 import React from "react";
 import sublinks from "../data";
+import { RiArrowRightSLine } from "react-icons/ri";
 
 function Navbar() {
   return (
@@ -16,7 +17,10 @@ function Navbar() {
               );
             })}
           </ul>
-          <button className="btn btn-login">sing in</button>
+          <button className="btn btn-login">
+            sing in
+            <RiArrowRightSLine className="arrow-icon" />
+          </button>
         </div>
       </div>
     </nav>
