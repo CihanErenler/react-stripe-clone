@@ -214,13 +214,21 @@ body {
   z-index: 1;
 }
 
-.hero::before {
+.gradient {
+  height: 60vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.gradient::before {
   position: absolute;
   content: "";
-  height: 60vh;
+  height: 100vh;
   width: 140%;
-  top: -220px;
-  left: -150px;
+  top: -560px;
+  left: -350px;
   transform: rotate(-10deg);
   background-image: linear-gradient(45deg, var(--clr-grd-1), var(--clr-grd-2), var(--clr-grd-3), var(--clr-grd-4), var(--clr-grd-1));
   background-size: 340%,100%;

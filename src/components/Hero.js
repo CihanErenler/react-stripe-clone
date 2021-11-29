@@ -7,6 +7,7 @@ function Hero() {
   const { closeSubmenu } = useGlobalContext();
   return (
     <section className="hero" onMouseOver={closeSubmenu}>
+      <div className="gradient"></div>
       <div className="container">
         <div className="row">
           <div className="col-8 flex align-start justify-center flex-column h100">
